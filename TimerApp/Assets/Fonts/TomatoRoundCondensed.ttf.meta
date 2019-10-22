@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bc41cdad4ce097549b76b96b83d61fe6
+timeCreated: 1506337143
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tomato Round Condensed
+  fontNames:
+  - Tomato Round Condensed
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
