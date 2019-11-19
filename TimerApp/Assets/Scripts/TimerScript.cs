@@ -59,11 +59,13 @@ public class TimerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //timer running
         if (PomodoroTimerEnabled)
         {
             timeLeft = timeLeft - Time.deltaTime;
             StartButton.SetActive(false);
         }
+        //timer done
         if(timeLeft <= 0 && PomodoroTimerEnabled)
         {
             PomodoroTimerEnabled = false;
@@ -72,18 +74,22 @@ public class TimerScript : MonoBehaviour {
             PlayAudio(EndWorkTimer);
             timerStartValue = (int)timeLeft;
 
-            StartRelaxTimer();
+            StartTimer(true);
         }
+        //relax timer running
         if (RelaxTimerEnabled)
         {
             timeLeft = timeLeft - Time.deltaTime;
         }
+        //relax timer done
         if (timeLeft <= 0 && RelaxTimerEnabled)
         {
             RelaxTimerEnabled = false;
             StartButton.SetActive(true);
             PlayAudio(EndRelaxTimer);
         }
+
+
 	}
 
     void CalculateNewPomCount()
@@ -98,38 +104,19 @@ public class TimerScript : MonoBehaviour {
         Asource.clip = clip;
         Asource.Play();
     }
-    void StartRelaxTimer()
+
+    public void StartTimer(bool relaxTimer)
     {
-        TimerGUIScript.ChangeImage();
-        RelaxTimerEnabled = true;
-    }
-    public void StartTimer()
-    {
-        PomodoroTimerEnabled = true;
-        timeLeft = workTime;
+        timeLeft = relaxTimer ? relaxTime : workTime;
+
+        PomodoroTimerEnabled = !relaxTimer;
+        RelaxTimerEnabled = relaxTimer;
+
         TimerGUIScript.ChangeImage();
     }
     public void ResetTimer()
     {
         PomodoroTimerEnabled = false;
         timeLeft = timerStartValue;
-    }
-    public void ChangeTime(int number, int AddOrSubtract)
-    {
-        switch (AddOrSubtract)
-        {
-            case -1:  //Subtract
-                timeLeft = timeLeft - number;
-            break;
-            case 1: //add
-                timeLeft = timeLeft + number;
-            break;
-            
-        }
-        if(timeLeft <= 0)
-        {
-            timeLeft = 0;
-        }
-        timerStartValue = (int)timeLeft;
     }
 }
