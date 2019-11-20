@@ -120,12 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &165102748 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4161567559472601020, guid: 0f2f261ae670599449e9626882126aec,
-    type: 3}
-  m_PrefabInstance: {fileID: 4161567559334761248}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &189232380
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +520,7 @@ PrefabInstance:
     - target: {fileID: 6400354819660435913, guid: 4c821f3f136f4824091b45cef9e412cb,
         type: 3}
       propertyPath: m_Name
-      value: TimerObjectLeeg
+      value: TimerObject
       objectReference: {fileID: 0}
     - target: {fileID: 6400354819660435919, guid: 4c821f3f136f4824091b45cef9e412cb,
         type: 3}
@@ -587,6 +581,177 @@ PrefabInstance:
         type: 3}
       propertyPath: ResetPomsButton
       value: 
-      objectReference: {fileID: 165102748}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435912, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: StartButton
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435912, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: Asource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435912, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: EndWorkTimer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435912, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: EndRelaxTimer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: timeScript
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: PomCount
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 534dcca8e69cc734f996a04ed7d400b4,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fa8d813b12550e4d979725b894bd2d1,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b61fb6d42a9e1c408b972c77266628e,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f125f0f01edf3440a977c0af13767dd,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 922be35ac14a1d0469e7a3d5f984c904,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 24296a365c2a46940ad9ed42cfce7b12,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2bc3b01dd78e886488535185d50419dc,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: e451d0c426af3ef4c9faf850c7a2bae7,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fc4886fb8334cc42a18620048358125,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6b8b61c86a2293e46bb49d3e35259668,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 266286ff4a8a7ef40bc10d5d8f01eb3e,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: b44aace6b5d0e954993e33815d90a46b,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: bb259be72253f414cb064653fa749410,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: 750bc4712da72ce4b97558db2b66cff6,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: aee1da2ab8dcc3441869e97796ac9a5a,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7a6f2881d751b60458127b84650b6f9f,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: a78b9e4b3a746ff4a979b76115af332b,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: de0343e05efc2d941b9051c53fcc174e,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[18]
+      value: 
+      objectReference: {fileID: 21300000, guid: cfcc22beeca579d4282f01ef0b767a04,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: 010f1f21eb720bc41bab29f9c827a20d,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: AllTomatoesImages.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: 64c3dfbdd41db2c45876dd5414c5e48a,
+        type: 3}
+    - target: {fileID: 6400354819660435918, guid: 4c821f3f136f4824091b45cef9e412cb,
+        type: 3}
+      propertyPath: TomatoesImageHolder
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c821f3f136f4824091b45cef9e412cb, type: 3}
