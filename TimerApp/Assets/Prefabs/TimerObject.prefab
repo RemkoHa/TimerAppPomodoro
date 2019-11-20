@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5410250238364306888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5410250238364306894}
+  - component: {fileID: 5410250238364306889}
+  - component: {fileID: 5410250238364306895}
+  - component: {fileID: 5410250238364306892}
+  - component: {fileID: 5410250238364306893}
+  m_Layer: 0
+  m_Name: TimerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5410250238364306894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5410250238364306888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5410250238364306889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5410250238364306888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f0ebd6f09f6c844a1fe612691cccc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLeft: 1500
+  relaxTime: 300
+  workTime: 1500
+  timerStartValue: 1500
+  PomodoroTimerEnabled: 0
+  RelaxTimerEnabled: 0
+  EndWorkTimer: {fileID: 8300000, guid: fd0a886d3c6fdab4da884569d251a088, type: 3}
+  EndRelaxTimer: {fileID: 8300000, guid: ee986b81c6ec7474c96b3c00d3037d0b, type: 3}
+  Asource: {fileID: 5410250238364306892}
+  StartButton: {fileID: 0}
+  ResetPomsButton: {fileID: 0}
+  TimerGUIScript: {fileID: 0}
+  OldPoms: 0
+  TotalPoms: 0
+--- !u!114 &5410250238364306895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5410250238364306888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1bbc7f86675cb4e84f51ff603212dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 0}
+  timeScript: {fileID: 5410250238364306889}
+  PomCount: {fileID: 0}
+  AllTomatoesImages:
+  - {fileID: 21300000, guid: 534dcca8e69cc734f996a04ed7d400b4, type: 3}
+  - {fileID: 21300000, guid: 0fa8d813b12550e4d979725b894bd2d1, type: 3}
+  - {fileID: 21300000, guid: 9b61fb6d42a9e1c408b972c77266628e, type: 3}
+  - {fileID: 21300000, guid: 922be35ac14a1d0469e7a3d5f984c904, type: 3}
+  - {fileID: 21300000, guid: 24296a365c2a46940ad9ed42cfce7b12, type: 3}
+  - {fileID: 21300000, guid: 2bc3b01dd78e886488535185d50419dc, type: 3}
+  - {fileID: 21300000, guid: 0fc4886fb8334cc42a18620048358125, type: 3}
+  - {fileID: 21300000, guid: b44aace6b5d0e954993e33815d90a46b, type: 3}
+  - {fileID: 21300000, guid: bb259be72253f414cb064653fa749410, type: 3}
+  - {fileID: 21300000, guid: 7a6f2881d751b60458127b84650b6f9f, type: 3}
+  - {fileID: 21300000, guid: a78b9e4b3a746ff4a979b76115af332b, type: 3}
+  - {fileID: 21300000, guid: de0343e05efc2d941b9051c53fcc174e, type: 3}
+  - {fileID: 21300000, guid: 010f1f21eb720bc41bab29f9c827a20d, type: 3}
+  - {fileID: 21300000, guid: 64c3dfbdd41db2c45876dd5414c5e48a, type: 3}
+  TomatoesImageHolder: {fileID: 0}
+--- !u!82 &5410250238364306892
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5410250238364306888}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &5410250238364306893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5410250238364306888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcee78497077fd4ba018e108c79f106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
